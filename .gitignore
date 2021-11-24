@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+saved_models/
+venv/
+.idea/
+__pycache__/
+data.zip
