@@ -17,14 +17,20 @@ Dataset in parquet format comprising the following columns:
 
 ## Prerequisite
 
-Create virtual environment and install requirements for the project:
+Create virtual environment:
 
 ```
 cd path/of/project
 python -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
 ```
+
+Install requirements for the project:
+- To install only necessary libraries
+```pip install -r requirements.txt```
+
+- To install all used libraries
+```pip install -r requirements_full.txt```
 
 ## File structure
 
