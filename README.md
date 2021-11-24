@@ -38,6 +38,28 @@ pip install -r requirements.txt
 - ```PT*.py```: Code to produce camemBert model for multilabel classification in PyTorch.
 - ```*_inference.py```: Model inference.
 
+## To perform a training
+```python LogisticRegression.py```
+
+or
+
+```python TFcamemBert.py.py```
+
+or
+
+```python PTcamemBert.py```
+
+## To perform an inference
+```python LogisticRegression_inference.py```
+
+or
+
+```python TFcamemBert_inference.py```
+
+or
+
+```python PTcamemBert_inference.py```
+
 ## First steps to reduce the complexity of the problem
 
 1. Extract raw url into more meaningful words.
