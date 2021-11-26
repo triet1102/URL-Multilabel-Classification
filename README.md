@@ -44,7 +44,7 @@ Install requirements for the project:
 - ```PT*.py```: Code to produce camemBert model for multilabel classification in PyTorch.
 - ```*_inference.py```: Model inference.
 
-## To perform a training
+## To perform a training and evaluation
 ```python LogisticRegression.py```
 
 or
@@ -54,6 +54,16 @@ or
 or
 
 ```python PTcamemBert.py```
+
+or 
+
+run ```lstm.ipynb``` notebook
+
+or
+
+run ```TFcamemBert.ipynb``` notebook
+
+Note: Necessary code to run the ```TFcamemBert.ipynb``` notebook on google colab can be found in this link drive https://drive.google.com/drive/folders/1_ySbzUPTsFUFNn-JAt-xrDrg9bXL1U0T?usp=sharing
 
 ## To perform an inference
 ```python LogisticRegression_inference.py```
